@@ -5,7 +5,7 @@ theme = "minimal"
 
 [params]
     author = "Cuong Manh Le"
-    description = "go func{}()"
+    description = "go func(){}()"
     githubUsername = "Gnouc"
     accent = "red"
     showBorder = true
