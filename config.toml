@@ -1,0 +1,51 @@
+baseURL = "https://cuonglm.xyz"
+languageCode = "en-us"
+title = "CuongLM"
+theme = "minimal"
+
+[params]
+    author = "Cuong Manh Le"
+    description = "go func{}()"
+    githubUsername = "Gnouc"
+    accent = "red"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Droid Sans Mono"
+    highlight = true
+    highlightStyle = "solarized-light"
+    highlightLanguages = ["go", "bash", "json", "perl", "python", "ruby"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.icon]]
+    url = "CuongLM_Resume.pdf"
+    name = "file-text"
+    weight = 1
+
+[[menu.icon]]
+    url = "mailto:cuong.manhle.vn@gmail.com"
+    name = "envelope-o"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://github.com/Gnouc"
+    name = "github"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://twitter.com/bino1810"
+    name = "twitter"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/bino18"
+    name = "linkedin"
+    weight = 5
+
+[[menu.icon]]
+    url = "https://stackexchange.com/users/2556963/cuonglm"
+    name = "stack-exchange"
+    weight = 6
