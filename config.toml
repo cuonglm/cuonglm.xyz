@@ -6,7 +6,7 @@ theme = "minimal"
 [params]
     author = "Cuong Manh Le"
     description = "go func(){}()"
-    githubUsername = "Gnouc"
+    githubUsername = "cuonglm"
     accent = "red"
     showBorder = true
     backgroundColor = "white"
@@ -31,7 +31,7 @@ theme = "minimal"
     weight = 2
 
 [[menu.icon]]
-    url = "https://github.com/Gnouc"
+    url = "https://github.com/cuonglm"
     name = "github"
     weight = 3
 
