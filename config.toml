@@ -7,18 +7,28 @@ theme = "minimal"
     author = "Cuong Manh Le"
     description = "go func(){}()"
     githubUsername = "cuonglm"
-    accent = "red"
+    accent = "#00BCEB"
     showBorder = true
     backgroundColor = "white"
     font = "Droid Sans Mono"
     highlight = true
     highlightStyle = "solarized-light"
-    highlightLanguages = ["go", "bash", "json", "perl", "python", "ruby"]
+    highlightLanguages = ["go", "sh", "bash", "json", "perl", "python", "rust"]
 
 [[menu.main]]
     url = "/"
     name = "Home"
     weight = 1
+
+[[menu.main]]
+    url = "/about"
+    name = "About"
+    weight = 2
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 3
 
 [[menu.icon]]
     url = "CuongLM_Resume.pdf"
@@ -49,3 +59,8 @@ theme = "minimal"
     url = "https://stackexchange.com/users/2556963/cuonglm"
     name = "stack-exchange"
     weight = 6
+
+[[menu.icon]]
+    url = "https://go-review.googlesource.com/q/owner:cuong.manhle.vn%2540gmail.com"
+    name = "google"
+    weight = 7
