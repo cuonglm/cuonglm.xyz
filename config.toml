@@ -32,35 +32,35 @@ theme = "minimal"
 
 [[menu.icon]]
     url = "CuongLM_Resume.pdf"
-    name = "file-text"
+    name = "fas fa-file-alt"
     weight = 1
 
 [[menu.icon]]
     url = "mailto:cuong.manhle.vn@gmail.com"
-    name = "envelope-o"
+    name = "fas fa-envelope"
     weight = 2
 
 [[menu.icon]]
     url = "https://github.com/cuonglm"
-    name = "github"
+    name = "fab fa-github"
     weight = 3
 
 [[menu.icon]]
     url = "https://twitter.com/cuonglm_"
-    name = "twitter"
+    name = "fab fa-twitter"
     weight = 4
 
 [[menu.icon]]
     url = "https://www.linkedin.com/in/bino18"
-    name = "linkedin"
+    name = "fab fa-linkedin"
     weight = 5
 
 [[menu.icon]]
     url = "https://stackexchange.com/users/2556963/cuonglm"
-    name = "stack-exchange"
+    name = "fab fa-stack-exchange"
     weight = 6
 
 [[menu.icon]]
     url = "https://go-review.googlesource.com/q/owner:cuong.manhle.vn%2540gmail.com"
-    name = "google"
+    name = "fab fa-google"
     weight = 7
