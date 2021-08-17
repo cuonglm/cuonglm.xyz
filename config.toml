@@ -5,6 +5,7 @@ theme = "minimal"
 
 [params]
     author = "Cuong Manh Le"
+    profilePic = "https://github.com/cuonglm.png"
     description = "go func(){}()"
     githubUsername = "cuonglm"
     accent = "#00BCEB"
