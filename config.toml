@@ -13,7 +13,7 @@ theme = "minimal"
     font = "Droid Sans Mono"
     highlight = true
     highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "sh", "bash", "json", "perl", "python", "rust"]
+    highlightLanguages = ["go", "shell", "bash", "json", "perl", "python", "rust"]
 
 [[menu.main]]
     url = "/"
