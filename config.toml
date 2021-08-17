@@ -12,7 +12,7 @@ theme = "minimal"
     backgroundColor = "white"
     font = "Droid Sans Mono"
     highlight = true
-    highlightStyle = "solarized-light"
+    highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "sh", "bash", "json", "perl", "python", "rust"]
 
 [[menu.main]]
