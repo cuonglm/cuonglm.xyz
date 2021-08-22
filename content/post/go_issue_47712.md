@@ -7,7 +7,7 @@ draft: false
 
 ---
 
-# Prologue
+### Prologue
 
 On August 15, 2021, [@johejo](https://github.com/johejo) filed an [issue](https://github.com/golang/go/issues/47712) about Go compiler internal compiler error.
 This is a regression bug, since when it happens on current [tip](https://github.com/golang/go/commit/717894cf8024cfaad629f0e66a4b9bc123676be5), not in go1.17,
@@ -39,7 +39,7 @@ until having a concrete, simpler reproducer.
 
 Let try it!
 
-# Reproducing the bug
+### Reproducing the bug
 
 First, look at the [line (./libc.go:90)](https://gitlab.com/cznic/libc/-/blob/e5917aaeaa0922ac3735d58466d78255cc237416/libc.go#L90) where the panic happens:
 
@@ -110,7 +110,7 @@ p.go:6:15: internal compiler error: walkExpr: switch 1 unknown op RECOVER
 
 The bug is now reproducible, let's examine why this happens.
 
-# Investigating
+### Investigating
 
 Since when the panic happens during [walk][walk] pass, let use `go tool compile -W` to examine the generated AST:
 
@@ -168,7 +168,7 @@ I would leave it as an excercise for the readers.
 
 ---
 
-# Fixing
+### Fixing
 
 I sent [CL 342350](https://go-review.googlesource.com/c/go/+/342350) to fix the bug.
 
@@ -177,7 +177,7 @@ The idea is simple:
  - During [deadcode][deadcode] pass, keep track of which hidden closure is discarded.
  - When draining function to compile from compiling queue, skipping the discarded one.
 
-# Epilogue
+### Epilogue
 
 Working on the Go compiler is quite fun, and help me learning a lot of thing. I encourage you to give this a try, and hope you will have the same feel!
 
