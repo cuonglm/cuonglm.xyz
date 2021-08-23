@@ -76,9 +76,9 @@ So in `g := s.M`, `s.M` is a [selector expression][go_selector_expression], and 
 > the shallowest depth in T where there is such an f. If there is not exactly one f with shallowest depth, 
 > the selector expression is illegal.
 
-Thus for `s.M` to be valid, we need to find where is `M` appears in `S`. And the answer is `s.(*t).M`. Further, the declared
+Thus for `s.M` to be valid, we need to find where is `M` appears in `S`. And the answer is `(*s.T).M`. Further, the declared
 receiver parameter type of `M` is `T`, so `s` must be evaluated to something typed `T` during method value evaluation. And
-the answer is also `s.(*t)`.
+the answer is also `*(s.T)`.
 
 Here's a simple program to prove that:
 
