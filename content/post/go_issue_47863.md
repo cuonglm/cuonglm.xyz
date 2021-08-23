@@ -2,7 +2,7 @@
 title: "A tale from The Go Programming Language Specification"
 date: "2021-08-20"
 tags: ["go", "golang"]
-draft: true
+draft: false
 ---
 
 ---
@@ -147,8 +147,8 @@ p.M0()       // ((*p).T0).M0()      M0 expects *T0 receiver
 p.M1()       // ((*p).T1).M1()      M1 expects T1 receiver
 ```
 
-Though we are stay here, honestly, I still don't understand why [@go101][go101_twitter] has the [conclusion](#problem).
-The method value `s.M` and method call `s.M()` both evaluate `s.M` the same way, it's just that in method value case,
+Though we are stay here, honestly, I still don't understand why [@go101][go101_twitter] has this [conclusion](#problem).
+The method value `s.M` and method call `s.M()` both must evaluate `s.M` the same way, it's just that in method value case,
 the function value is never called.
 
 ### Solution
