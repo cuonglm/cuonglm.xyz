@@ -2,6 +2,7 @@ baseURL = "https://cuonglm.xyz"
 languageCode = "en-us"
 title = "CuongLM"
 theme = "minimal"
+googleAnalytics = "UA-206101795-1"
 
 [params]
     author = "Cuong Manh Le"
