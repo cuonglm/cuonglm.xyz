@@ -90,9 +90,17 @@ Since when the `gcflags` now contains flags from `gcargs`, so more flags are pre
 I sent [CL 351049][cl_351049] to fix the bug. It's quite simple, just don't merge those flags set like they were before, and we're good.
 
 ---
+_Note_
+
 When writing test case for the bug, I found an [issue][issue_48496] that `go` command does not do concurrent compilation on darwin/arm64!
 
 That's the reason I don't see the slow down when running `make.bash` in my M1 after [CL 344909][cl_344909].
+
+---
+_Updated 24/09/2021_
+
+I sent a followup [CL 351849][cl_351849], hopefully making the code easier to understand/maintain
+and prevent subtle bug like this.
 
 ---
 
@@ -110,4 +118,5 @@ Till next time!
 [bryan_cmills_link]: https://github.com/bcmills
 [cl_344909]: https://go-review.googlesource.com/c/go/+/344909
 [cl_351049]: https://go-review.googlesource.com/c/go/+/351049
+[cl_351849]: https://go-review.googlesource.com/c/go/+/351849
 [issue_48496]: https://github.com/golang/go/issues/48496
