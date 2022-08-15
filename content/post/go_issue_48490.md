@@ -16,7 +16,7 @@ I was wrong, and here's the story.
 
 ### The bug
 
-One day in Gopher Slack `#tools`, [dominikhonnef][dominik_honnef_twitter] (a experienced/respectful Gopher) asked:
+One day in Gopher Slack `#tools`, [dominikhonnef][dominik_honnef_twitter] (an experienced/respectful Gopher) asked:
 
 > when testing compiler changes/bisecting compiler bugs, is it enough to do `go install cmd/compile`? till now I've always done a full make.bash, but that's a bit slow
 
