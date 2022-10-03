@@ -33,7 +33,7 @@ googleAnalytics = "UA-206101795-1"
     weight = 3
 
 [[menu.icon]]
-    url = "CuongLM_Resume.pdf"
+    url = "/cuonglm_resume.pdf"
     name = "fas fa-file-alt"
     weight = 1
 
