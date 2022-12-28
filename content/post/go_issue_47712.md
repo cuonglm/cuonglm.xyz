@@ -132,7 +132,7 @@ Oh! There're two things that caught my eyes:
 
  - The function `f` body is empty.
  - The funtion `f.func1` body contains `ORECOVER`, which must not happen during [walk][walk] pass.
-   (Do you remember [CL 330192][cl_330192] I said above, go readind it and you would know why!)
+   (Do you remember [CL 330192][cl_330192] I said above, lets read it and you would know why!)
 
 `f` body is empty because the compiler run an early [deadcode][deadcode] pass after typechecking, thus it evals the `if false` condition and discards
 the `if` body.
