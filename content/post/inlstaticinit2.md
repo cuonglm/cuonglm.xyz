@@ -9,7 +9,7 @@ draft: false
 
 ### Prologue
 
-In [last](/post/inlstaticinit), I talked about an upgrading node for go1.20, which has many regression bugs due to in-complete
+In [previous post](/post/inlstaticinit), I talked about an upgrading node for go1.20, which has many regression bugs due to in-complete
 implementation of inlining static init. The issue is now fixed, and will be enabled by default again for go1.21 version.
 
 ### The problem
