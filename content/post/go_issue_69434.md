@@ -33,7 +33,7 @@ f(func(x T) bool {
 })
 ```
 
-The details does not matter for this post, you could just understand thatthe compiler frontend
+The details does not matter for this post, you could just understand that the compiler frontend
 simply rewrite the for-range loop into a function call with a function literal (aka closure) as
 its argument.
 
